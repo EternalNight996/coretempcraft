@@ -1,4 +1,4 @@
-# PulseCraft
+# CoreTempCraft
 
 **A real-time CPU frequency and temperature monitor for Windows, built with [Craft Anything](https://github.com/storytold/craft-anything).**
 
@@ -7,7 +7,7 @@ measured at, the resulting frequency, and the package temperature, with a small 
 tray-friendly window. It reads Windows performance counters and, where they exist, the CPU's own
 frequency counters, so it needs no kernel driver and no administrator rights.
 
-Free and open source (MIT). Part of the ArtCraft family of community apps.
+Free and open source (MIT). A community app of the [ArtCraft](https://getartcraft.com/) family — [www.mengbot.com.cn](https://www.mengbot.com.cn).
 
 ## What it shows
 

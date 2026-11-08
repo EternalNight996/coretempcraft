@@ -1339,12 +1339,12 @@ fn main() -> eframe::Result<()> {
         viewport: egui::ViewportBuilder::default()
             .with_inner_size([1200.0, 840.0])
             .with_min_inner_size([960.0, 640.0])
-            .with_title("PulseCraft 主频监视器"),
+            .with_title("CoreTempCraft 主频监视器"),
         ..Default::default()
     };
 
     eframe::run_native(
-        "pulsecraft",
+        "coretempcraft",
         options,
         Box::new(move |cc| Ok(Box::new(App::new(cc, screenshot)))),
     )
