@@ -1,0 +1,12 @@
+[package]
+name = "pulsecraft"
+version = "0.1.0"
+license = "MIT"
+edition = "2021"
+description = "PulseCraft: a real-time CPU frequency and temperature monitor for Windows, built with Craft Anything"
+
+[dependencies]
+eframe = { version = "=0.36.2", default-features = false, features = ["default_fonts", "wgpu"] }
+
+[profile.release]
+opt-level = 2
